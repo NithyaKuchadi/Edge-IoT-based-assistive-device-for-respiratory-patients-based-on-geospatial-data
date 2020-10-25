@@ -5,8 +5,8 @@ module.exports = async () => {
         let pool = mysql.createPool({
             connectionLimit: 3,
             host: 'database-asthma.chopwqznfm2g.us-west-1.rds.amazonaws.com',
-            user: 'admin',
-            password: 'Harrypotter2990*',
+            user: '',
+            password: '',
             database: "Asthma"
         });
         if (pool) 
